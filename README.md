@@ -61,6 +61,7 @@ Method `vkapi.setOptions` returns `this`.
         * `login` (String)
         * `pass` (String)
         * `phone` (String): Phone number (Example: +79991234567)
+    * `proxy` (String): Format host:port or username:password@host:port
     * `captcha` (Object):
         * `service` (String): Captcha service (rucaptcha, anti-captcha, antigate). `anti-captcha` by default
         * `key` (String): Cpatcha service API-key
